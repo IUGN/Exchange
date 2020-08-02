@@ -1,0 +1,1 @@
+Set-OwaVirtualDirectory –Identity “ServerName\owa (Default Web Site)” –LogonPagePublicPrivateSelectionEnabled $true
