@@ -18,4 +18,3 @@ Get-MailboxDatabaseCopyStatus
 [xml]$bp = Get-ExchangeDiagnosticInfo -Server LON-EX1 -Process EdgeTransport -Component ResourceThrottling;
 $bp.Diagnostics.Components.ResourceThrottling.ResourceTracker.ResourceMeter
 Test-EdgeSynchronization
-
